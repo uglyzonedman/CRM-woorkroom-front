@@ -1,23 +1,17 @@
-import Sidebar from '@components/layouts/Sidebar'
+import Sidebar from "@components/layouts/Sidebar";
+import localFont from "next/font/local";
 
 interface IProps {
-	children: React.ReactNode
+  children: React.ReactNode;
 }
 
 const MainLayout = ({ children }: IProps) => {
-	return (
-		<html lang='en'>
-			<body>
-				<div className='flex'>
-					<Sidebar />
-					<main>{children}</main>
-				</div>
-			</body>
-		</html>
-		// <div>
-		//
-		// </div>
-	)
-}
+  return (
+    <div className="flex">
+      <Sidebar />
+      <main>{children}</main>
+    </div>
+  );
+};
 
-export default MainLayout
+export default MainLayout;
