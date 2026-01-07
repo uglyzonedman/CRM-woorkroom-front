@@ -1,10 +1,10 @@
-import CalendarIcon from "@/shared/svg/CalendarIcon";
-import DashboardIcon from "@/shared/svg/DashboardIcon";
-import EmployeeIcon from "@/shared/svg/EmployeeIcon";
-import InfoPortalIcon from "@/shared/svg/InfoPortalIcon";
-import MessengerIcon from "@/shared/svg/MessengerIcon";
-import ProjectIcon from "@/shared/svg/ProjectIcon";
-import VacationIcon from "@/shared/svg/VacationIcon";
+import CalendarIcon from "@/src/shared/assets/svg/CalendarIcon";
+import DashboardIcon from "@/src/shared/assets/svg/DashboardIcon";
+import EmployeeIcon from "@/src/shared/assets/svg/EmployeeIcon";
+import InfoPortalIcon from "@/src/shared/assets/svg/InfoPortalIcon";
+import MessengerIcon from "@/src/shared/assets/svg/MessengerIcon";
+import ProjectIcon from "@/src/shared/assets/svg/ProjectIcon";
+import VacationIcon from "@/src/shared/assets/svg/VacationIcon";
 import { Calendar, FolderOpenDot, LayoutDashboard, Plane } from "lucide-react";
 
 export const NAVIGATIONS = [

@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
 import localFont from "next/font/local";
-import MainLayout from "@/components/layouts/MainLayout";
+import MainLayout from "@/src/shared/layouts/MainLayout";
 import "./globals.css";
 
 export const metadata: Metadata = {
